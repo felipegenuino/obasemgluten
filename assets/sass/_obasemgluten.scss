@@ -1,0 +1,203 @@
+
+  @media #{$small-and-down} {
+    // styles for small screens and down
+  }
+  @media #{$medium-and-up} {
+    // styles for medium screens and larger
+  }
+  @media #{$medium-and-down} {
+    // styles for medium screens and down
+  }
+  @media #{$large-and-up} {
+    // styles for large screens and up
+  }
+
+
+
+
+
+ //footer sticker
+	 body {
+	    display: flex;
+	    min-height: 100vh;
+	    flex-direction: column;
+
+	      main { flex: 1 0 auto; }
+	}
+
+
+ 
+
+/* Preloader */
+	body{
+		//overflow: hidden;
+		#preloader {
+		    position:fixed;
+		    top:0;
+		    left:0;
+		    right:0;
+		    bottom:0;
+		    background-color:#fff; /* change if the mask should have another color then white */
+		    z-index:999999; /* makes sure it stays on top */
+		}
+
+		#status {
+		  width: 64px;
+		  height: 64px;
+		  position: absolute;
+		  left: 50%;
+		  top: 50%;
+		  margin: -64px 0 0 -32px;
+		}
+	}
+
+  
+  
+//typografia
+	h1{ color: color("teal","lighten-1")  }
+	h2 {  font-size: 2em; }
+
+
+#mobile-demo .menu-item {
+  padding: 20px !important;
+}
+
+.hero-page{
+	background: color("teal","darken-2");
+	color: #fff;
+	text-align: center;
+	padding: 40px 0;
+
+	h1{
+		color: #fff;
+	}
+}
+
+.super-hero{
+	background:  url("../img/pattern/background-2.jpg"); 
+	padding: 20px 0;
+	position: relative;
+
+			.button-google-play{
+				background: color("teal","lighten-1") url("../img/icons/google-play.png"); 
+			  background-size: 80%;
+			  padding: 60px 220px 0 0;
+			  background-repeat: no-repeat;
+			  background-position: center center;
+			  border-radius: 7px;
+			  margin: 0 auto;
+			  display: inline-block;
+			}
+
+			.container{
+			z-index: 1;
+			position: relative;
+			}
+
+
+			.super-title{
+				text-align: center;
+				font-size: 50px;
+					strong{font-weight: 900;}
+					span{font-weight: 100; }
+ 				}
+
+			.texto-de-apoio{
+				text-align: center;
+				font-size: 2em;
+				font-weight: 100;
+			}
+
+			.brand{
+				width: 260px;
+			}
+
+			.hero-main-image{
+				width: 100%;
+				max-width: 800px;
+			}
+}
+
+
+
+
+
+.footer-copyright{
+	  font-size: 0.9em;
+	.age{}
+	.email{}
+}
+
+
+
+.nav-topbar{  
+	overflow: visible;
+
+	.brand-logo img{ width: 110px; }
+	.brand-logo { margin-top: 30px; }
+ 
+}
+
+
+
+
+
+
+
+
+
+//form
+.form-watch{
+  background: color("teal", "lighten-5");
+  border-top: 1px solid color("teal", "lighten-4");
+  border-bottom:  1px solid color("teal", "lighten-4");
+  .row{
+    margin-bottom: 0;
+  }
+}
+
+
+//contact form 7
+.wpcf7-submit{
+	@extend .btn;
+	@extend .waves-effect;
+	@extend .waves-light;
+}
+ 
+
+
+
+
+
+.formulario-de-contato {
+	textarea.materialize-textarea{
+		overflow-y: scroll !important;  
+		height: 100px !important;
+	}	
+}
+
+
+
+
+
+.screen-reader-response {
+  position: relative !important;
+  width: inherit !important;
+  height: inherit !important;
+  //border: 1px solid #CCC !important;
+  padding: 0 20px !important;
+}
+
+
+
+
+
+
+
+.section-page.section-3{
+	  background:  color("teal", "darken-4");
+	    color: #FFF;
+  padding: 20px 0;
+  font-size: 1.4em;
+  font-weight: 100;
+}
